@@ -76,8 +76,8 @@ AuraERP leverages a relational model in PostgreSQL to track transactions, stocks
 erDiagram
     users {
         int id PK
-        string username UNIQUE
-        string email UNIQUE
+        string username
+        string email
         string hashed_password
         string role
         timestamp created_at
@@ -96,7 +96,7 @@ erDiagram
         string name
         string department
         string designation
-        string email UNIQUE
+        string email
         int leave_balance
         timestamp created_at
     }
