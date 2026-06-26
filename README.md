@@ -27,4 +27,3 @@ AuraERP is an AI-powered Enterprise Resource Planning (ERP) web application desi
 ```bash
 docker compose up --build
 
-AuraERP – An intelligent ERP solution that combines modern web technologies with AI to simplify business management.
